@@ -15,7 +15,7 @@ def print_status(dic, size):
 
 count = 0
 size = 0
-status_code = {'200': 0,
+status_codes = {'200': 0,
                '301': 0,
                '400': 0,
                '401': 0,
