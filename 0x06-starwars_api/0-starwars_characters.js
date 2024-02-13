@@ -9,7 +9,7 @@ if (process.argv.length > 2) {
       console.log(err);
     }
     const cURLs = JSON.parse(body).characters;
-    const cNames = cURL.map(
+    const cNames = cURLs.map(
       url => new Promise((resolve, reject) => {
         request(url, (promiseErr, __, cReqBody) => {
           if (promiseErr) {
