@@ -10,9 +10,9 @@ def rotate_2d_matrix(matrix):
     """
     for i in range(int(len(matrix) / 2)):
         for j in range(i, (len(matrix) - i - 1)):
-            mtx = (len(matrix) - 1 - j)
+            m = (len(matrix) - 1 - j)
             mcopy = matrix[i][j]
-            matrix[i][j] = matrix[mtx][i]
-            matrix[mtx][i] = matrix[(len(matrix) - i - 1)][mtx]
-            matrix[(len(matrix) - i - 1)][mtx] = matrix[j][(len(matrix) - i - 1)]
+            matrix[i][j] = matrix[m][i]
+            matrix[m][i] = matrix[(len(matrix) - i - 1)][m]
+            matrix[(len(matrix) - i - 1)][m] = matrix[j][(len(matrix) - i - 1)]
             matrix[j][(len(matrix) - i - 1)] = mcopy
