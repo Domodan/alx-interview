@@ -7,7 +7,7 @@
 def island_perimeter(grid):
     """
         Computes the perimeter of an island described by a Grid
-        
+
         Input: List of Lists
         Returns: Perimeter of the island
     """
