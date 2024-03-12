@@ -24,5 +24,5 @@
   * Maria picks 5 and removes 5, leaving 1
   * Maria wins because there are no prime numbers left for Ben to choose
 * Third round: `1`
-  * Ben wins because there are no prime numbers for Maria to choose
+  * Ben  wins because there are no prime numbers for Maria to choose
 ---
